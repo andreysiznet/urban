@@ -1,0 +1,5 @@
+homework=(12)
+time=(1.5)
+group_name=('Python')
+time_on_lesson=(time/homework)
+print('Курс:',group_name,',' 'всего задач:',homework,',','затрачено часов:',time,',','среднее время выполнения:',time_on_lesson,'часа.' )
