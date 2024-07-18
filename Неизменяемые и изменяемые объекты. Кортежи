@@ -1,6 +1,6 @@
 immutable_var_ = 10,True,'Urban'
 print(immutable_var_)
 #immutable_var_[0] = 1   # Кортеж не поддерживает обращение по элементам
-mutable_list_ = ([10,20],True,'Urban')
+mutable_list_ = [[10,20],True,'Urban']
 mutable_list_[0][1] = 40
 print(mutable_list_)
