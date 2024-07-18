@@ -1,0 +1,14 @@
+my_dict_ = {"Папа": 1962,"Мама": 1964,"Брат Сергей":1989,"Брат Марк":1994}
+print(my_dict_)
+print(my_dict_["Папа"])
+print(my_dict_.get("Сестра"))
+my_dict_.update({"Дочь": 2013, "Сын": 2018 })
+print(my_dict_)
+del my_dict_["Папа"]
+print(my_dict_)
+my_set_ ={1,2,2,7,"Значение",True,"Значение",2,7,7}
+print(my_set_)
+my_set_.add(5)
+my_set_.add(44)
+my_set_.discard(7)
+print(my_set_)
