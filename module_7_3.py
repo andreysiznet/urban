@@ -11,8 +11,8 @@ class WordsFinder:
                 for line in file:
                     line = line.lower()
                     punctuation = [',', '.', '=', '!', '?', ';', ':', ' - ']
-                    for symbol in punctuation:
-                        line = line.replace(symbol, '' if symbol != ' - ' else ' ')
+                    for punct in punctuation:
+                        line = line.replace(punct, '' if punct != ' - ' else ' ')
                     words.extend(line.split())
                 all_words[file_name] = words
         return all_words
